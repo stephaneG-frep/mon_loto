@@ -26,11 +26,11 @@ class Button extends React.Component {
                     {
                     this.state.randomNumber &&
                     <Text style={styles.randomNumber}>
-                        Le nombre:{this.state.randomNumber}
+                        N : {this.state.randomNumber}
                     </Text>
                 }
                 </TouchableOpacity>
-            
+           
             </View>
         );
     }
